@@ -47,10 +47,10 @@ h3 {
 }
 #whyUs {}
 #events .notifications {
-    height: 200px;
-    overflow-y: scroll;
+    height: 300px;
+    overflow-y: scroll; padding: 20px; background: #fff;
 }
-#events .notifications { }
+#events .notifications p{ margin-bottom: 5px; }
 footer {
     background-color: $dark;
 }
