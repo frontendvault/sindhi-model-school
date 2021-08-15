@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap");
 body {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px; }
 
 h2 {
   font-size: 28px;
@@ -16,6 +17,9 @@ h3 {
 
 #carouselExampleCaptions {
   height: 500px; }
+
+.bg-top {
+  background: rgba(0, 0, 0, 0.7); }
 
 .principal-message {
   background: linear-gradient(90deg, rgba(223, 145, 0, 0.9), rgba(206, 76, 0, 0.9)), url("/images/students.jpeg");
@@ -40,8 +44,7 @@ h3 {
 #events .notifications {
   height: 300px;
   overflow-y: scroll;
-  padding: 20px;
-  background: #fff; }
+  padding: 20px; }
 
 #events .notifications p {
   margin-bottom: 5px; }
