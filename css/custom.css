@@ -41,6 +41,9 @@ h3 {
   display: flex;
   align-items: center; }
 
+.course h3 a {
+  text-decoration: none; }
+
 #events .notifications {
   height: 300px;
   overflow-y: scroll;
