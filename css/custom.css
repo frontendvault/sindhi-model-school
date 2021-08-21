@@ -41,6 +41,14 @@ h3 {
   display: flex;
   align-items: center; }
 
+.searchform .input-group {
+  position: relative; }
+
+.searchform .input-group .input-group-text {
+  position: absolute;
+  right: 10px;
+  z-index: 1; }
+
 .course h3 a {
   text-decoration: none; }
 

@@ -47,6 +47,8 @@ h3 {
     align-items: center;
 }
 #whyUs {}
+.searchform .input-group  { position: relative;}
+.searchform .input-group .input-group-text {position:absolute; right:10px; z-index: 1;}
 .course h3 a { text-decoration: none;}
 #events .notifications {
     height: 300px;
