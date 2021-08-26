@@ -16,30 +16,30 @@
 
         <div class="row mb-4 mb-md-5">
             <div class="col">
-                <h2>Welcome to Singhi Group of Schools</h2>
+                <h2 class="display-4">Welcome to <span class="font-weight-bold">Singhi Group of Schools</span> </h2>
             </div>
         </div>
-        <div class="row w-100 mb-4 mb-md-5 text-center">
+        <div class="row w-100 mb-4 mb-md-5 text-center mt-md-3">
             <div class="col-md-4">
 
-                <div class="select-box"> <i class="fas fa-university fa-4x mb-3"></i>
+                <div class="select-box shadow-lg py-md-5 rounded"> <i class="fas fa-university fa-4x mb-3"></i>
                     <h3> Sindhi CBSE</h3>
                 </div>
 
             </div>
             <div class="col-md-4">
-                <div class="select-box">
+                <div class="select-box shadow-lg py-md-5 rounded">
                     <i class="fas fa-building fa-4x mb-3"></i>
                     <h3>Sindhi Matric</h3>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="select-box"><i class="fas fa-graduation-cap fa-4x mb-3"></i>
+                <div class="select-box shadow-lg py-md-5 rounded"><i class="fas fa-graduation-cap fa-4x mb-3"></i>
                     <h3>Sindhi excellence</h3>
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row mt-md-5">
             <div class="col text-center">
                 <p class="lead">“Life is not a Brief Candle . It is a splendid Torch that should be made to glow as
                     brightly as possible before handing it on to the future Generation”. Education is the means to
@@ -52,6 +52,17 @@
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/fontAwesome.js"></script>
+<script> 
+
+$(function () {
+    $(".select-box").click(function (){
+        $(".select-box").removeClass("choose-school");
+        $(this).addClass("choose-school");
+    });
+});
+
+</script>
+
 </body>
 
 </html>
