@@ -1,32 +1,40 @@
-@import url( 'https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
 
 $dark: #232323;
 $white: #fff;
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
 }
+
 h2 {
     font-size: 28px;
     font-weight: bold;
 }
+
 h3 {
     font-size: 20px;
     font-weight: 600;
 }
+
 .container {
     max-width: 1440px;
 }
+
 .common-padding {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
 #carouselExampleCaptions {
     height: 500px;
 }
+
 .bg-top {
     background: rgba(0, 0, 0, .7);
 }
+
 .principal-message {
     background: linear-gradient(90deg, rgba(223, 145, 0, 0.9), rgba(206, 76, 0, 0.9)), url("/images/students.jpeg");
     background-position: center center;
@@ -37,6 +45,7 @@ h3 {
     display: flex;
     align-items: center;
 }
+
 // .principal-message .overlay {
 //     background: rgba(0,0,0,0.8);
 //     position: absolute; top: 0; right: 0; bottom:0; left:0; 
@@ -44,6 +53,7 @@ h3 {
 .principal-message p {
     line-height: 25px;
 }
+
 #getQuote {
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 1)), url("/images/abstract.jpeg");
     background-position: center center;
@@ -52,31 +62,46 @@ h3 {
     display: flex;
     align-items: center;
 }
+
 #whyUs {}
+
 .searchform .input-group {
     position: relative;
 }
+
 .searchform .input-group .input-group-text {
     position: absolute;
     right: 10px;
     z-index: 1;
 }
+
 .course h3 a {
     text-decoration: none;
 }
+
 #events .notifications {
     height: 300px;
     overflow-y: scroll;
     padding: 20px;
 }
+
 #events .notifications {}
+
 #events .notifications p {
     margin-bottom: 5px;
 }
+
+.select-school-container {
+    height: 100vh;
+}
+
+.select-school-container .slect-box {}
+
 footer {
     background-color: $dark;
     line-height: 26px;
 }
+
 footer h2 {
     font-weight: normal;
     color: #fff;
@@ -91,10 +116,12 @@ footer a {
     text-decoration: none;
     opacity: 0.8;
 }
+
 footer a:hover {
     opacity: 1;
     color: $white;
 }
+
 footer h3 {
     font-weight: 400;
     font-size: 17px;
