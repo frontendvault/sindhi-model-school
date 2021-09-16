@@ -27,9 +27,11 @@ h3 {
   position: relative; }
 
 #welcome-page a {
-  text-decoration: none; }
+  text-decoration: none;
+  display: flex; }
 
 #welcome-page a:hover {
+  background: rgba(206, 76, 0, 0.9);
   color: #fff; }
 
 .slide-bg2 {

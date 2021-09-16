@@ -39,7 +39,10 @@ h3 {
     background-size: cover;
     position: relative;
 }
-#welcome-page a { text-decoration: none;}
+#welcome-page a {
+    text-decoration: none;
+}
+#welcome-page a:hover { color: #fff;}
 
 // .welcome-overlay {
 //     background: rgba(0, 0, 0, .9);
